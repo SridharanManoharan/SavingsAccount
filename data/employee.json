@@ -1,0 +1,36 @@
+[
+  {
+  "Name" : "Jeff Chadwick",
+  "Age" : 36,
+  "Shoe Size" : 8,
+  "Title": "CEO"
+  },
+
+  {
+  "Name" : "Chada Jeffers",
+  "Age" : 23,
+  "Shoe Size" : 6,
+  "Title": "TEA BOY"
+  },
+
+  {
+  "Name" : "Charlie Tadpole",
+  "Age" : 42,
+  "Shoe Size" : 9,
+  "Title": "ACCOUNTANT"
+  },
+
+  {
+  "Name" : "John Kerry",
+  "Age" : 43,
+  "Shoe Size" : 8,
+  "Title": "MANAGER"
+  },
+
+  {
+  "Name" : "Chris Morry",
+  "Age" : 30,
+  "Shoe Size" : 9,
+  "Title": "VP"
+  }
+]

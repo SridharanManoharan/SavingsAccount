@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./stylesheets/uStyle.css" rel="stylesheet">
+    <title>Savings Account</title>
+  </head>
+  <body>
+    <header>
+      <h1>Savings Account</h1>
+    </header>
+    <section id="userTable">
+      <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search for names..">
+    </section>
+    <script type="text/javascript" src="/javascripts/onLoadUser.js"></script>
+  </body>
+</html>

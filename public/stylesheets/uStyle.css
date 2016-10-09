@@ -1,0 +1,60 @@
+#myInput {
+    background-image: url('searchicon.png'); /* Add a search icon to input */
+    background-size: 20px 20px;
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 0px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    box-sizing: border-box;
+}
+
+body {
+  font: 20px, Helvetica;
+  line-height: 36px;
+  color: #8c6300;
+}
+
+a {
+  font: 20px, Helvetica;
+  line-height: 36px;
+  color: #8c6300;
+}
+
+header {
+  padding: 40px;
+  margin-bottom: 20px;
+  font: 24px, Helvetica;
+  color: #e4efee;
+  line-height: 36px;
+  background-color: #008c85;
+}
+
+header h1 {
+   align-self: center;
+}
+
+#uTable {
+  width: 100%;
+  overflow: auto;
+}
+
+table th {
+  font: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #008c85;
+  color: #e4efee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2
+}
+
+@media all and (max-width: 480px) {
+  tr th:nth-child(2), tr td:nth-child(2), tr th:nth-child(3), tr td:nth-child(3){
+    display: none;
+  }
+}

@@ -1,0 +1,99 @@
+body {
+  font: 20px, Helvetica;
+  line-height: 36px;
+  color: #8c6300;
+}
+
+a {
+  font: 20px, Helvetica;
+  line-height: 36px;
+  color: #8c6300;
+}
+
+header {
+  padding: 40px;
+  margin-bottom: 20px;
+  font: 24px, Helvetica;
+  color: #e4efee;
+  line-height: 36px;
+  background-color: #008c85;
+}
+
+header h1 {
+   align-self: center;
+}
+
+#MyTable {
+  width: 100%;
+  overflow: auto;
+}
+
+table th {
+  font: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #008c85;
+  color: #e4efee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2
+}
+
+nav {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  nav {
+    display:block;
+  }
+  /* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+  /* Hide page title and table header*/
+ thead {
+   display: none;
+ }
+ /* Set border for eeach row*/
+  tr {
+    border: 1px solid #ccc;
+  }
+  /* Behave  like a "row" */
+  td {
+    border: 1px solid;
+    position: relative;
+    text-align:center;
+  }
+
+  td:before {
+    top: 10px;
+    left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .collapsed {
+   display: none;
+ }
+
+  #right {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+  }
+
+  #left {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+  }
+
+  td:nth-of-type(2):before {content: 'Interest Rate: '; }
+  td:nth-of-type(3):before {content: 'Minimum Deposit: '; }
+  td:nth-of-type(4):before { content: 'Interest type: '; }
+}
